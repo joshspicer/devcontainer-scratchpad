@@ -1,0 +1,14 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "1.2.1",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:5919fe2e95815521ccc256c6de28f259712dd2a34158fefb5a9f457aad7a63b5",
+      "integrity": "sha256:5919fe2e95815521ccc256c6de28f259712dd2a34158fefb5a9f457aad7a63b5"
+    },
+    "ghcr.io/joshspicer/features/mitm-proxy:1": {
+      "version": "1.0.3",
+      "resolved": "ghcr.io/joshspicer/features/mitm-proxy@sha256:c23aaf5c077ed64252b6cb8c8bf316b0a92f9c7e3b112e4d77e3684f206c1c47",
+      "integrity": "sha256:c23aaf5c077ed64252b6cb8c8bf316b0a92f9c7e3b112e4d77e3684f206c1c47"
+    }
+  }
+}
