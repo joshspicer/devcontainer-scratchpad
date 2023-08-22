@@ -1,0 +1,8 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "onCreateCommand": "npm install -g @devcontainers/cli",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/joshspicer/features/mitm-proxy:1": {}
+  }
+}
