@@ -6,16 +6,10 @@ root = "/var/lib/buildkit"
   address = [ "tcp://0.0.0.0:1234" ]
   # debugAddress is address for attaching go profiles and debuggers.
   debugAddress = "0.0.0.0:6060"
-  uid = 0
-  gid = 0
-  [grpc.tls]
-    cert = "/etc/buildkit/tls.crt"
-    key = "/etc/buildkit/tls.key"
-    ca = "/etc/buildkit/tlsca.crt"
 
 # config for build history API that stores information about completed build commands
 [history]
   # maxAge is the maximum age of history entries to keep, in seconds.
   maxAge = 172800
   # maxEntries is the maximum number of history entries to keep.
-  maxEntries = 50
+  maxEntries = 200
