@@ -1,0 +1,24 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {
+      "version": "2.3.1",
+      "resolved": "ghcr.io/devcontainers/features/docker-in-docker@sha256:b1d2b53454717e7f5acf162f3aa073b6569fb7cb6c59c4443ed13b79fca879ac",
+      "integrity": "sha256:b1d2b53454717e7f5acf162f3aa073b6569fb7cb6c59c4443ed13b79fca879ac"
+    },
+    "ghcr.io/devcontainers/features/go:1": {
+      "version": "1.2.0",
+      "resolved": "ghcr.io/devcontainers/features/go@sha256:ad9a28a35f2bdf6bfdf14930e4affcae6d9f9838b786697e2cff7de7dfe005e1",
+      "integrity": "sha256:ad9a28a35f2bdf6bfdf14930e4affcae6d9f9838b786697e2cff7de7dfe005e1"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "1.2.1",
+      "resolved": "ghcr.io/devcontainers/features/node@sha256:5919fe2e95815521ccc256c6de28f259712dd2a34158fefb5a9f457aad7a63b5",
+      "integrity": "sha256:5919fe2e95815521ccc256c6de28f259712dd2a34158fefb5a9f457aad7a63b5"
+    },
+    "ghcr.io/joshspicer/features/mitm-proxy:1": {
+      "version": "1.0.3",
+      "resolved": "ghcr.io/joshspicer/features/mitm-proxy@sha256:c23aaf5c077ed64252b6cb8c8bf316b0a92f9c7e3b112e4d77e3684f206c1c47",
+      "integrity": "sha256:c23aaf5c077ed64252b6cb8c8bf316b0a92f9c7e3b112e4d77e3684f206c1c47"
+    }
+  }
+}
