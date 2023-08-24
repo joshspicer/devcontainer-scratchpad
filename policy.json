@@ -5,6 +5,12 @@
       "selector": {
         "identifier": "docker-image://*"
       }
+    },
+    {
+      "action": "ALLOW",
+      "selector": {
+        "identifier": "docker-image://mcr.microsoft.com/devcontainers/ruby*"
+      }
     }
   ]
 }
