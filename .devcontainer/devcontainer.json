@@ -1,6 +1,6 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-  "onCreateCommand": ".devcontainer/onCreate.sh",
+  "onCreateCommand": ".devcontainer/dependencies.sh",
   "postCreateCommand": ".devcontainer/setup-remote-builder.sh",
   "features": {
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
