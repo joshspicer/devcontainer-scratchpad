@@ -3,7 +3,7 @@
 CONFIG=$1
 
 if [ -z "$CONFIG" ]; then
-  echo "Usage: $0 <config>"
+  echo "Usage: $0 < `ls -d example_configs/* | cut -f2 -d'/'  | awk '{print}' ORS=' '`>"
   exit 1
 fi
 
